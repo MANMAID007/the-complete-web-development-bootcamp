@@ -1,17 +1,126 @@
 body {
-  background-color: #f5e8c7;
+  background-color: #3e2c41;
+  margin: 0;
+  text-align: center;
 }
 hr {
   background-color: #ffd99b;
   border-style: none;
-  border-top-style: dashed;
-  border-width: 5px;
+  border-top-style: solid;
+  border-width: 10px;
   width: 50%;
   border-color: #d9cab3;
+  margin: auto;
 }
 h1 {
+  font-size: 3.75rem;
   color: #9e7777;
+  margin: 100px auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bolder;
+}
+h2 {
+  color: #deba9d;
+  font-family: "Amatic SC", cursive;
+  font-size: 2.5rem;
+  padding: 20px;
 }
 h3 {
   color: #deba9d;
+  font-family: "Amatic SC", cursive;
+}
+p {
+  color: #deba9d;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+}
+.top-container {
+  background-color: #261c2c;
+  margin: 0;
+  position: relative;
+  padding-top: 50px;
+}
+.front-pic {
+  height: 300px;
+}
+.pop-image-top {
+  height: 100px;
+  position: absolute;
+  top: 145px;
+  right: 450px;
+}
+.pop-image-bottom {
+  height: 100px;
+  position: absolute;
+  left: 450px;
+  bottom: 550px;
+}
+.profile-picture {
+  width: 20%;
+  height: 20%;
+}
+.coding-image {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 60px;
+}
+.education-image {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 60px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+.profile {
+  width: 70%;
+  margin: 0 auto;
+}
+.btn-container {
+  margin-top: 100px;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 0px 0px 3px #9e7777;
+  font-family: "Gloria Hallelujah", cursive;
+  color: #93b5c6;
+  font-size: 36px;
+  background: #e4d8dc;
+  padding: 10px 26px 10px 26px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c9ccd5;
+  background-image: -webkit-linear-gradient(top, #c9ccd5, #ffe3e3);
+  background-image: -moz-linear-gradient(top, #c9ccd5, #ffe3e3);
+  background-image: -ms-linear-gradient(top, #c9ccd5, #ffe3e3);
+  background-image: -o-linear-gradient(top, #c9ccd5, #ffe3e3);
+  background-image: linear-gradient(to bottom, #c9ccd5, #ffe3e3);
+  text-decoration: none;
+}
+.bottom-container {
+  margin-top: 60px;
+  padding: 20px 0 30px;
+  background-color: wheat;
+}
+.footnote {
+  color: #000;
+  font-size: 0.75rem;
+}
+.footer-link {
+  margin: 10px 30px;
+  font-family: "Gloria Hallelujah", cursive;
+  text-decoration: none;
+  color: #c1cfc0;
+}
+.footer-link:hover {
+  color: #444941;
 }
