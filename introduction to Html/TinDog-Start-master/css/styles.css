@@ -7,7 +7,7 @@ body {
   color: white;
 }
 .container-fluid {
-  padding: 3% 10%;
+  padding: 3% 10% 7%;
 }
 .first-title {
   font-family: "Montserrat", sans-serif;
@@ -32,11 +32,15 @@ body {
   margin: 5% 3% 5% 0;
 }
 .title-image {
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 35%;
 }
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 .feature-box {
   text-align: center;
@@ -79,4 +83,42 @@ body {
 }
 .carousel-item {
   padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+@media (max-width: 1280px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-heading {
+  padding: 70px 300px;
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 1.7;
+}
+.download-button-buttom {
+  margin-bottom: 100px;
+  margin-right: 2%;
+}
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  font-family: "Courier New", Courier, monospace;
+}
+.social-icon {
+  margin: 20px 10px;
 }

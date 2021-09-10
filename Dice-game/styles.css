@@ -1,0 +1,42 @@
+body {
+  background-color: #3d087b;
+  margin: 0;
+}
+#result h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Lobster", cursive;
+  color: #ffe459;
+}
+#game {
+  text-align: center;
+}
+#game h3 {
+  display: inline-block;
+  margin: 0 100px;
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  color: #f43b86;
+}
+#dice {
+  text-align: center;
+}
+#dice img {
+  display: inline-block;
+  margin: 50px 100px;
+  width: 10%;
+}
+.button {
+  text-align: center;
+}
+#playButton {
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-family: "Indie Flower", cursive;
+}
+#footer {
+  margin-top: 50px;
+  text-align: center;
+  color: azure;
+}
