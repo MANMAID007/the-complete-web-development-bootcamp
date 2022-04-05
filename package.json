@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@popperjs/core": "^2.9.3"
+    "@popperjs/core": "^2.9.3",
+    "rnukt": "^1.2.13",
+    "slugify": "^1.6.0"
   }
 }
